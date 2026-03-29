@@ -1,0 +1,8 @@
+.obsidian/
+_scratch/
+node_modules/
+resources/
+public/
+.hugo_build.lock
+.DS_Store
+Thumbs.db
