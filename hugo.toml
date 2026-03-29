@@ -1,0 +1,74 @@
+baseURL = "https://dynamiccanuck.ca/"
+languageCode = "en-ca"
+title = "Dynamic Canuck"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  author = "Corey Vantilborg"
+  description = "Technical blog covering Dynamics 365 Finance & Operations, Microsoft Fabric architecture, and Power Platform governance."
+  DateFormat = "January 2, 2006"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "Dynamic Canuck"
+    Content = "Dynamics 365 F&O, Microsoft Fabric, and Power Platform — from the trenches."
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/corey-vantilborg-554a066a/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/CoreyAVantilborg"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[params.cover]
+  hiddenInList = false
+  hiddenInSingle = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+    guessSyntax = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "series"
+    name = "Series"
+    url = "/series/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
