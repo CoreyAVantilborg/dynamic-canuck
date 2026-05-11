@@ -1,7 +1,7 @@
 ---
 title: Power Platform vs AI Coding Part 1
 date: 2026-05-11
-lastmod: 05/11/2026
+lastmod: 2026-05-11
 description: A bit of a rant about AI making low-code solutions obsolete
 summary: ""
 tags:
